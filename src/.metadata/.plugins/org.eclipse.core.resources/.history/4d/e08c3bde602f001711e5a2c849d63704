@@ -1,0 +1,42 @@
+package controller;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
+
+public class Abas extends JFrame{
+	public Abas(){
+			
+	JTabbedPane abas = new JTabbedPane();
+	
+	JLabel label1 = new JLabel("Painel 1");
+	JLabel painel1 = new JPanel();
+			
+	JLabel label2 = new JLabel("Painel 2");
+	JPanel painel2 = new JPanel();
+			
+	JLabel label3 = new JLabel("Painel 3");
+	JPanel painel3 = new JPanel();
+	
+	ImageIcon iconAjuda = new ImageIcon("img/ajuda.png);");
+	ImageIcon iconImprimeir = new ImageIcon("img/imprimir.png);");
+	ImageIcon iconSair = new ImageIcon("img/sair.png);");
+		}
+		
+	public static void main(String[] args) {
+JFrame janela = new JFrame();
+		
+		janela.setTitle("Título da Janela");
+		janela.setSize(500,300);
+		janela.setResizable(false);
+		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		ImageIcon icone = new ImageIcon("img/ic_curtir.gif");
+		janela.setIconImage(icone.getImage());
+	
+		janela.setLocationRelativeTo(null);
+		janela.setVisible(true);
+	}
+}

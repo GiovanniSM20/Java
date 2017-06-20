@@ -1,0 +1,11 @@
+package controller;
+
+public class Ex_09 {
+	public static void main(String[] args){
+		String nome [] = new String [4];
+		String profissao [] = new String [4];
+		for(int i = 1; i < 5; i++);
+		JOp
+	}
+
+}

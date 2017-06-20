@@ -1,0 +1,13 @@
+package controller;
+
+import javax.swing.JFrame;
+
+public class CaixeDeSenha extends JFrame {
+	public static void main(String[] args) {
+		new CaixaDeSenha();
+	}
+	public CaixeDeSenha(){
+		
+	}
+
+}

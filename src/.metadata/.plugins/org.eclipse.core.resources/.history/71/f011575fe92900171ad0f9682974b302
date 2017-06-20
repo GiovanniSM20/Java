@@ -1,0 +1,26 @@
+package controller;
+
+import javax.swing.JOptionPane;
+
+public class Ex_02 {
+	public static void main(String[] args){
+		
+		String x1 = JOptionPane.showInputDialog("Informe um número");
+		String x2 = JOptionPane.showInputDialog("Informe um número");
+		String x3 = JOptionPane.showInputDialog("Informe um número");
+		String x4 = JOptionPane.showInputDialog("Informe um número");
+		
+		int v1 = Integer.parseInt(x1);
+		int v2 = Integer.parseInt(x2);
+		int v3 = Integer.parseInt(x3);
+		int v4 = Integer.parseInt(x4);
+		
+		int soma = v1+v2+v3+v4;
+		int multi = v1*v2*v3*v4;
+		
+		JOptionPane.showMessageDialog(null, "O resultado da adição dos valores é "+ soma+ 
+				".    O resultado da multiplicação dos valores é "+multi+".");
+		
+	}
+
+}

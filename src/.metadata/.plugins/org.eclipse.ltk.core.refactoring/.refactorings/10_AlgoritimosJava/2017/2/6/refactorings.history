@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;util&apos; to &apos;11_Vetor/src&apos;&#x0D;&#x0A;- Original project: &apos;10_AlgoritimosJava&apos;&#x0D;&#x0A;- Destination element: &apos;11_Vetor/src&apos;&#x0D;&#x0A;- Original element: &apos;10_AlgoritimosJava/src/util&apos;" description="Copy package" destination="=11_Vetor/src" element1="/src&lt;util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1486485668787" version="1.0"/>
+</session>

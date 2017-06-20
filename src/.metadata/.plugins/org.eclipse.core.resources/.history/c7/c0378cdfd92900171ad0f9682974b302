@@ -1,0 +1,22 @@
+package controller;
+
+import javax.swing.JOptionPane;
+
+public class Ex_07 {
+
+	public static void main(String[] args){
+		
+		String nT = JOptionPane.showInputDialog("Informe um número");
+		
+		int n = 2;
+		int m = 1;
+		int s = 0;
+		for(int i=1; i>10; i++){
+			 s = n*m;
+			m = m+1;
+			JOptionPane.showMessageDialog(null, "A tabela de multipicação é"+ s);
+		}
+		
+	}
+
+}

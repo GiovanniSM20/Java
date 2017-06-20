@@ -1,0 +1,12 @@
+package controller;
+import model.Carro;
+public class Cadastro {
+	public static void main(String[] args){
+		Carro user = new Carro();
+		user.fabricante="Honda";
+		user.modelo="Corola";
+		user.cor="Preto";
+		user.ano="2011";
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;util&apos; to &apos;GUI02.1_CaixasDeDialogo/src&apos;&#x0D;&#x0A;- Original project: &apos;ExFixacao_02&apos;&#x0D;&#x0A;- Destination element: &apos;GUI02.1_CaixasDeDialogo/src&apos;&#x0D;&#x0A;- Original element: &apos;ExFixacao_02/src/util&apos;" description="Copy package" destination="=GUI02.1_CaixasDeDialogo/src" element1="/src&lt;util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1493139358474" version="1.0"/>
+</session>

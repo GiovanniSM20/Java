@@ -1,0 +1,12 @@
+package controller;
+import util.Teclado;
+public class Exercicio_10 {
+	public static void main(String[] args){
+		String E;
+		E = Teclado.lerTexto("Digite um estado do Brasil:");
+		if (E == "Rio de Janeiro")  (E =="Espirito Santo") || (E == "Minas Gerais") || (E =="São Paulo"){
+			
+		}
+	}
+
+}

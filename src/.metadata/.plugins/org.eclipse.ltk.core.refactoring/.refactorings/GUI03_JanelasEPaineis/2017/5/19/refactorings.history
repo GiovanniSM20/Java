@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;img&apos; to &apos;GUI04_Componentes&apos;&#x0D;&#x0A;- Original project: &apos;GUI03_JanelasEPaineis&apos;&#x0D;&#x0A;- Destination element: &apos;GUI04_Componentes&apos;&#x0D;&#x0A;- Original element: &apos;img&apos;" description="Copy folder" destination="=GUI04_Componentes" element1="img" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1494357758896" units="0" version="1.0"/>
+</session>

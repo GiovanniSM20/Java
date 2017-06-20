@@ -1,0 +1,11 @@
+package controller;
+import model.Aluno;
+public class Cadastro {
+		public static void main(String[] args){
+			Aluno alu = new Aluno ();
+			alu.setNome("Juca Bala");
+			alu.setTelefone("993289870");
+			alu.setCpf(45684134);
+			alu.setDataDeNascimento("09/11/1996");
+		}
+}

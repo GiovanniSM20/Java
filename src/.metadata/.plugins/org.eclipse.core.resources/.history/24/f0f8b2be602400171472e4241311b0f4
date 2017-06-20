@@ -1,0 +1,32 @@
+package controller;
+
+import javax.swing.JOptionPane;
+
+public class JanelasDeConfirmacao {
+	
+	public static void main(String[] args) {
+		
+		int opt1 = JOptionPane.showConfirmDialog(null, "Janel de Confirmação 1");
+		
+		switch (opt1) {
+		
+		case JOptionPane.CANCEL_OPTION:
+			JOptionPane.showMessageDialog(null, "Você clicou em \"Cancelar\"");
+			break;
+			
+		case JOptionPane.YES_OPTION:
+			JOptionPane.showMessageDialog(null, "Você clicou em \"Sim\"");
+			break;
+			
+		case JOptionPane.NO_OPTION:
+			JOptionPane.showMessageDialog(null, "Você clicou em \"Não\"");
+			break;
+			
+		default:
+			JOptionPane.showMessageDialog(null, "Você fechou a janela");
+			break;
+		
+			}//fim do switch
+	}
+
+}

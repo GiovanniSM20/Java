@@ -1,0 +1,40 @@
+package controller;
+
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class CaixaDeTexto extends JFrame {
+	public static void main(String[] args) {
+		new CaixaDeTexto();
+	}
+	
+	public CaixaDeTexto(){
+	super("Caixa de texto");
+	
+	JTextField caixaDeTexto = new JTextField(20);
+	caixaDeTexto.setText("Digite algo aqui");
+	caixaDeTexto.setToolTipText("DIGITA LOGO PORRA!");
+	
+	caixaDeTexto.addKeyListener(new KeyListener() {
+		
+		public void keyTyped(KeyEvent e){
+			
+			
+		}
+		
+		public void keyRelease(KeyEvent e){
+			caixaDeTexto.setText(caixaDeTexto.getText().toUpperCase());
+			
+		}
+		
+		public void keyPressed(KeyEvent e){
+			
+		}
+		
+	});
+	
+	
+}
+}

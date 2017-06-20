@@ -1,0 +1,23 @@
+package controller;
+
+import javax.swing.JOptionPane;
+
+public class Ex_08 {
+	public static void main(String[] args){
+		String s = JOptionPane.showInputDialog("Digite a sigla do seu estado");
+	
+		if(s.equals("RJ")){
+			JOptionPane.showMessageDialog(null,"Você é carioca");
+		}else{
+			if(s.equals("MG")){
+				JOptionPane.showMessageDialog(null,"Você é mineiro");
+			}else{
+				if(s.equals("SP")){
+					JOptionPane.showMessageDialog(null,"Você é paulista");
+				}else{
+					JOptionPane.showMessageDialog(null,"Outros estados");
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+package model.DAO;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import util.Conexao;
+import model.Contato;
+
+public class ContatoDAO {
+	
+ public static Contato inserir(String nome, String email, String mensagem){
+	 Contato contato= null;
+	 try{
+		 //criação do insert
+		 String sql = "insert into contato(nome, email, mensagem) valeus(?, ?, ?)";
+		 
+		 //Obter a conexão com o banco de dados
+		 Conexao conex = new Conexao("jdbc:myswl://localhost:3306/18_conexaobd",
+				 "com.mysql.jdbc.Driver","root","aluno");
+	
+		 Connection con = conex.obterConexao();
+		 
+		 PreparedStatement comando = con.prepareStatement(sql);
+		 
+		 comando.setString(1, nome);
+		 comando.setString(2, email);
+		 comando.setString(3, mensagem);
+	 
+		 comando.executeUpdate();
+		 
+	 }catch(Exception e ){
+		 System.out.println(e.getMessage());
+	 }
+	 contato = new Contato (nome, email, mensagem);
+	 return contato;
+ }
+}

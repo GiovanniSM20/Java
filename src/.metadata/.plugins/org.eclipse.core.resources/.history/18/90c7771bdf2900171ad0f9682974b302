@@ -1,0 +1,16 @@
+package controller;
+
+import javax.swing.JOptionPane;
+
+public class Ex_09 {
+	public static void main(String[] args){
+		String nome [] = new String [4];
+		String profissao [] = new String [4];
+		for(int i = 0; i < 5; i++){
+			nome [i] = JOptionPane.showInputDialog("Digite o seu nome");
+			profissao [i] = JOptionPane.showInputDialog("Digite a sua profissão");
+		}
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package controller;
+
+import javax.swing.JFrame;
+
+public class AreaDeTextoComScroll extends JFrame {
+
+	public class CaixaDeSenha extends JFrame {
+		public static void main(String[] args) {
+			new CaixaDeSenha();
+}

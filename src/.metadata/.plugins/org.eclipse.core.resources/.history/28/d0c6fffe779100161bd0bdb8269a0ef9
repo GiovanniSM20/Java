@@ -1,0 +1,10 @@
+package controller;
+import model.Funcionario;
+public class CadastroF {
+	public static void main(String[] args){
+		Funcionario user = new Funcionario();
+				user.nome="Mateus";
+				user.cpf="141948945";
+	}
+
+}

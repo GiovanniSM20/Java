@@ -1,0 +1,13 @@
+package controller;
+
+public class ChamadaMetodos {
+	public static void main(String[] args){
+		System.out.println("Iniciando Programa");
+		primeiro();
+		System.out.println("Continuando Programa");
+		terceiro();
+		System.out.println("Terminando Programa");
+		
+	}
+
+}
